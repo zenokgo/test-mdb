@@ -1,7 +1,7 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 
-const projectPageURL = process.env.URL || '';        // 
+const projectPageURL = process.env.URL || 'https://hi-ohyo.mdbgo.io';        // 
 const intervalInseconds = process.env.TIME || 120;   // 
-const UUID = process.env.UUID || 'd2a1d42c-a63d-4260-a603-35410eccf3c9';
+const UUID = process.env.UUID || '0d372ce0-8d6b-4c41-ab23-fbf2a82e94ab';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     // 
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';              // 
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                    // 
