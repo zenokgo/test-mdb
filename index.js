@@ -1,5 +1,5 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 
-const projectPageURL = process.env.URL || 'https://hi-ohyo.mdbgo.io';        // 
+const projectPageURL = process.env.URL || 'https://hi-gozen.mdbgo.io';        // 
 const intervalInseconds = process.env.TIME || 120;   // 
 const UUID = process.env.UUID || '0d372ce0-8d6b-4c41-ab23-fbf2a82e94ab';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     // 
