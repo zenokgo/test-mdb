@@ -1,20 +1,15 @@
 {
-  "name": "nodejs-argo",
-  "version": "8.8.8",
-  "description": "Thsi is a node project",
+  "name": "Hello-World",
+  "version": "1.0.0",
+  "description": "Hello-World",
   "main": "index.js",
-  "author": "eooce",
-  "repository": "https://github.com/eooce/nodejs-argo",
+  "repository": "",
+  "author": "my",
   "license": "MIT",
-  "private": false,
   "scripts": {
-    "start": "node index.js"
+  "start": "node index.js"
   },
   "dependencies": {
-    "axios": "latest",
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=14"
+    "ws": "^8.13.0"
   }
 }
