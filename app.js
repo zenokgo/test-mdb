@@ -10,8 +10,8 @@ const password = process.env.WEB_PASSWORD || "password";
 const logcb = (...args) => console.log.bind(console, new Date().toISOString(), ...args);
 const errcb = (...args) => console.error.bind(console, new Date().toISOString(), ...args);
 
-const uuid = (process.env.UUID || '37a0bd7c-8b9f-4693-8916-bd1e2da0a817').replace(/-/g, '');
-const port = process.env.PORT || 3000;
+const uuid = (process.env.UUID || 'ada519a3-c894-4086-8fc7-388809a7dc6c').replace(/-/g, '');
+const port = process.env.PORT || 4000;
 
 const app = express();
 
