@@ -17,13 +17,13 @@ app = Flask(__name__)
 FILE_PATH = os.environ.get('FILE_PATH', './tmp')
 PROJECT_URL = os.environ.get('URL', '') # 
 INTERVAL_SECONDS = int(os.environ.get("TIME", 120))                         # 
-UUID = os.environ.get('UUID', '0004add9-5c68-8bab-870c-08cd5320df00')       # 
+UUID = os.environ.get('UUID', '3c7919b9-becd-434e-9dae-d37ea2dfe367')       # 
 ARGO_DOMAIN = os.environ.get('ARGO_DOMAIN', '')                             #
 ARGO_AUTH = os.environ.get('ARGO_AUTH', '')                                 # 
 ARGO_PORT = int(os.environ.get('ARGO_PORT', 8001))                          #
 CFIP = os.environ.get('CFIP', 'www.visa.com.tw')                            # 
 CFPORT = int(os.environ.get('CFPORT', 443))                                 #
-NAME = os.environ.get('NAME', 'Vls')                                        # 
+NAME = os.environ.get('NAME', 'MDB')                                        # 
 PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3000) # 
 
 # Create directory if it doesn't exist
